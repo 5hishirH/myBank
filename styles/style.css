@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: #e8f4ea;
+} */
+
+.loginSection {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 80vw;
+    display: flex;
+
+    /* border: 2px solid purple; */
+    background-color: white;
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.imgContainer {
+    padding: 0.8rem 0 0.8rem 0.8rem;
+    width: 50%;
+}
+
+.loginImg {
+    border-radius: 0.8rem;
+    height: 100%;
+    background-image: url("../images/loginImg1.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+/* .imgContainer > img {
+    width: 100%;
+} */
+
+.loginContainer {
+    width: 50%;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm {
+    /* width: 50%; */
+    /* border: 2px solid tomato; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 16px; */
+}
+
+.loginTitle {
+    font-size: 3rem;
+}
+
+.loginTxt {
+    margin-bottom: 4rem;
+    color: #666;
+}
+
+.loginForm > input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+#passBox {
+    margin: 3rem 0;
+}
+
+#loginBtn {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 1rem;
+    background: #85BB65;
+
+    font-size: 1.2rem;
+}
